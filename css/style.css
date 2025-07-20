@@ -228,6 +228,10 @@ nav button {
   border-radius: 10px;
   width: 100%;
 }
+.contact .infoContent input:focus,
+.contact .infoContent textarea:focus {
+  border: 1px solid var(--primarycolor);
+}
 .contact .infoContent label {
   color: var(--textColor);
 }
